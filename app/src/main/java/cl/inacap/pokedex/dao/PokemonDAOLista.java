@@ -10,7 +10,7 @@ public class PokemonDAOLista implements PokemonDAO {
     List<Pokemon> pokemones = new ArrayList<Pokemon>();
     private static PokemonDAOLista instancia;
 
-    private PokemonDAOLista(){
+    private PokemonDAOLista() {
         Pokemon p = new Pokemon();
         p.setNombre("Pikachu");
         p.setImagenPokemon(R.drawable.pikachu);

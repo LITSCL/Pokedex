@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private List<Pokemon> pokemones;
     private PokemonArrayAdaptador adaptador;
     private PokemonDAO daoPokemones = PokemonDAOLista.getInstance();
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
